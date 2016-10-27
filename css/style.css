@@ -321,7 +321,7 @@ a {
 }
 
 .pd-show-img img {
-    vertical-align: top;
+    vertical-align: middle;
 }
 .pd-show-img div {
     font-size: 12px;
