@@ -1,0 +1,13 @@
+$(function(){
+    $('.signin').on('click',function(e){
+        e.preventDefault();
+        $('#signin-modal').addClass('in');
+        $('.modal-backdrop').addClass('in');
+    });
+    $('.close-btn').on('click',function(e){
+        console.log('clicked');
+        e.preventDefault();
+        $('#signin-modal').removeClass('in');
+        $('.modal-backdrop').removeClass('in');
+    });
+})

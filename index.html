@@ -1,5 +1,5 @@
 <!DOCTYPE>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -12,8 +12,8 @@
         <div class="wrap clear">
             <div class="top_left">
                 <span>唯一的非中介平台，最快的场地搜索和查询工具！</span>
-                <a class="top_icon-l" href="javascript:;">登陆 |</a>
-                <a class="top_icon-r" href="javascript:;">注册</a>
+                <a class="signin" href="javascript:;">登陆 |</a>
+                <a class="registration" href="javascript:;">注册</a>
             </div>
             <div class="top_right">
                 <ul>
@@ -417,6 +417,28 @@
         </ul>
         <p>Copyright © 2014 NiPic.com All Rights Reserved　版权所有 米西网 ICP备00000000号 电话：400-8800-400</p>
     </div>
+    <div id="signin-modal" class="modal">
+        <div class="modal-header">
+            <h3><span>登录</span></h3>
+            <a class="close-btn" href="#">×</a>
+        </div>
+        <div class="modal-content ">
+            <form action="">
+                <div class="user-name">
+                    <input type="text" name="userName" placeholder="请输入用户名">
+                </div>
+                <div class="password">
+                    <input type="password" name="password" placeholder="请输入密码">
+                </div>
+                <div class="submit">
+                    <a href="#" class="btn-submit">登 录</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-backdrop"></div>
+    <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
 </body>
 
 </html>
